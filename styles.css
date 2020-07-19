@@ -44,7 +44,7 @@ body {
 	display: block;
 }
 
-.navbar-links ul #kursevi {
+.navbar-links ul #nav-courses {
 	color: #fff;
 	background-color: #6547fd;
 	border-radius: .3rem;
@@ -54,7 +54,7 @@ body {
 	color: #6547fd;
 }
 
-.navbar-links ul #kursevi:hover {
+.navbar-links ul #nav-courses:hover {
 	background-color: #593de3
 }
 
@@ -94,6 +94,9 @@ body {
 	.navbar-links ul {
 		width: 100%;
 		flex-direction: column;
+	}
+	.navbar-links ul #nav-courses {
+		border-radius: 0;
 	}
 	.navbar-links ul li {
 		text-align: center;
