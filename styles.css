@@ -3,7 +3,6 @@
 }
 
 body {
-	font-size: 62.5%;
 	margin: 0;
 	padding: 0;
 }
@@ -14,13 +13,14 @@ body {
 	align-items: center;
 	background-color: #fff;
 	color: #000;
+	border-bottom: 2px solid #f1f1f1;
 }
 
+/* privremeno, dok se ne izradi logo */
 .logo {
 	font-size: 1.4rem;
 	margin: .5rem;
 }
-
 .logo a {
 	color: #6547fd;
 	text-decoration: none;
@@ -44,9 +44,18 @@ body {
 	display: block;
 }
 
-.navbar-links ul a:hover {
-	background-color: #6547fd;
+.navbar-links ul #kursevi {
 	color: #fff;
+	background-color: #6547fd;
+	border-radius: .3rem;
+}
+
+.navbar-links ul a:hover {
+	color: #6547fd;
+}
+
+.navbar-links ul #kursevi:hover {
+	background-color: #593de3
 }
 
 .toggle-button {
